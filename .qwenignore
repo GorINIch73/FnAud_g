@@ -1,0 +1,12 @@
+build/
+external/imgui/
+*.exe
+*.o
+*.a
+*.lib
+*.dll
+*.pdb
+compile_commands.json
+*.db
+*.sqlite3
+resources/*.ttf

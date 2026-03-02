@@ -1,0 +1,166 @@
+# ============================================
+# Build directory
+# ============================================
+build/
+cmake-build-*/
+out/
+
+# ============================================
+# Compiled files
+# ============================================
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+
+# ============================================
+# CMake generated files
+# ============================================
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+compile_flags.txt
+*.cmake
+
+# ============================================
+# IDE files
+# ============================================
+# Visual Studio
+.vs/
+*.sdf
+*.suo
+*.user
+*.VC.db
+*.VC.VC.opendb
+*.opensdf
+*.VC.db-shm
+*.VC.db-wal
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Qt Creator
+*.creator
+*.creator.user
+*.creator.user.*
+
+# CLion
+.idea/
+*.iml
+
+# Eclipse
+.cproject
+.project
+.settings/
+.cdtbuild
+
+# KDevelop
+*.kdev4
+
+# Code::Blocks
+*.cbp
+*.cbp.workspace
+*.depend
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ============================================
+# MinGW / MSYS2
+# ============================================
+*.exe.stackdump
+
+# ============================================
+# Backup files
+# ============================================
+*~
+*.bak
+*.swp
+*.swo
+*#
+.#*
+
+# ============================================
+# OS generated files
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================
+# Application specific
+# ============================================
+# Database files (SQLite)
+*.db
+*.sqlite
+*.sqlite3
+!resources/*.db
+
+# Recent files
+recent_files.txt
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Test data generated files
+*.tsv
+!tools/*.tsv
+
+# Export files
+*_export.csv
+*_export.pdf
+*_report.pdf
+*_report.csv
+
+# ============================================
+# External libraries (should be installed separately)
+# ============================================
+external/imgui/
+external/ImGuiFileDialog/
+!external/README.txt
+
+# ============================================
+# Resources (user may want to keep local)
+# ============================================
+#resources/DejaVuSans.ttf
+#resources/fa-solid-900.ttf
+!resources/README.md
+!resources/.gitkeep
+
+# ============================================
+# Qwen Code specific
+# ============================================
+.qwen/
+!.qwenignore
