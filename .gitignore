@@ -133,6 +133,7 @@ recent_files.txt
 *.temp
 tmp/
 temp/
+.cache/
 
 # Test data generated files
 *.tsv
